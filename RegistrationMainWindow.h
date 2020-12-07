@@ -9,6 +9,7 @@
 #include <QHBoxLayout>
 #include <QLabel>
 #include <QComboBox>
+#include <QDateEdit>
 #include "QLabelAndqLineEdit.h"
 
 class RegistrationMainWindow : public QWidget
@@ -19,6 +20,7 @@ private:
     QVBoxLayout *v_layout;
     QHBoxLayout *h_layout_radiobutton;
     QHBoxLayout *h_layout;
+    QHBoxLayout *h_layout_birthday;
     QlabelAndQLineEdit *name;
     QlabelAndQLineEdit *surname;
     QlabelAndQLineEdit *patronimic;
@@ -31,7 +33,9 @@ private:
     QPushButton *autorization_button;
     QRadioButton *radio_button1;
     QRadioButton *radio_button2;
+    QDateEdit *birthday_date;
     QLabel *sex_label;
+    QLabel *birthday_label;
 
 public:
     RegistrationMainWindow(QWidget *parent = nullptr);

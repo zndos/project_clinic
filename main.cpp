@@ -9,9 +9,9 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
+    //MainWindow w;
     //QlabelAndQLineEdit w("Login");
-    //RegistrationMainWindow w;
+    RegistrationMainWindow w;
     //QDateEdit w;
     w.show();
     return a.exec();
