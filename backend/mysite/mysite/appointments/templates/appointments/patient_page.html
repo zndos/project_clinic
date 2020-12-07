@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patien page </title>
+</head>
+<body>
+
+ <form method="POST">
+        {% csrf_token %}
+    <table>
+        {{ form }}
+    </table>
+    <input type="submit" value="Send" >
+<br>
+<h1> Recent Appointment</h1>
+Date :
+<br>
+Time :
+<br>
+Specialist :
+<br>
+
+
+Photo !TODO!
+<br>
+Surname : {{surname}}
+<br>
+Name: {{name}}
+<br>
+Birthday: {{birth}}
+<br>
+
+
+
+
+</body>
+</html>
