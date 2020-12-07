@@ -4,15 +4,15 @@
 
 #include "QLabelAndqLineEdit.h"
 #include "RegistrationMainWindow.h"
-#include "DateWidget.h"
+#include <QDateEdit>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    //MainWindow w;
+    MainWindow w;
     //QlabelAndQLineEdit w("Login");
     //RegistrationMainWindow w;
-    DateWidget w;
+    //QDateEdit w;
     w.show();
     return a.exec();
 }
